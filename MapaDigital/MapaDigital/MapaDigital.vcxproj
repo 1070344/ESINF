@@ -79,7 +79,13 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AutoEstradas.h" />
+    <ClInclude Include="EstradasNacionais.h" />
+    <ClInclude Include="Ficheiro.h" />
     <ClInclude Include="Locais.h" />
+    <ClInclude Include="LocaisHistoricosCulturais.h" />
+    <ClInclude Include="LocaisNaturais.h" />
+    <ClInclude Include="ViasLigacao.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

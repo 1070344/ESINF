@@ -23,5 +23,23 @@
     <ClInclude Include="Locais.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="AutoEstradas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EstradasNacionais.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LocaisNaturais.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LocaisHistoricosCulturais.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViasLigacao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ficheiro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
