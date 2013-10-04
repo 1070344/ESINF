@@ -35,7 +35,7 @@ class ViasLigacao
 		double getTempoMedioPercurso()const;
 
 		//metodos da classe
-		virtual void inserirViaLigacao(ViasLigacao * v) const;
+		virtual void inserirViaLigacao(ViasLigacao * v);
 		virtual void contarVias() const;
 		virtual void escreve(ostream & out) const;
 		virtual ViasLigacao * clone() const=0;
@@ -132,7 +132,7 @@ bool ViasLigacao::operator == (const ViasLigacao & vias)
 
 }
 
-void ViasLigacao::inserirViaLigacao(ViasLigacao *v)const
+void ViasLigacao::inserirViaLigacao(ViasLigacao *v)
 {
 	/*Inserir as vias de ligação a partir de um ficheiro de texto com a informação estruturada do seguinte 
 	modo:
